@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  line-height: 1.9;
 }
 
 nav {
@@ -44,7 +45,10 @@ button {
   border: 0.3px solid #58595b;
   background-color: #ffffff;
 }
-
+.h {
+  color: #541212;
+  font-size: 25px;
+}
 /* animation for waves */
 .header {
   position: relative;
@@ -287,6 +291,7 @@ html {
 
 .abt {
   color: #000000;
+  font-size: 35px;
 }
 .h {
   color: #541212;
@@ -347,6 +352,10 @@ html {
     height: 80px;
     width: 250px;
   }
+  .h {
+    color: #541212;
+    font-size: 25px;
+}
   .logo {
     width: 50px;
     fill: white;
@@ -449,6 +458,7 @@ html {
   }
   .abt {
     color: #000000;
+    font-size: 35px;
   }
   .h {
     color: #541212;
@@ -598,6 +608,10 @@ img.flexcardimgItem {
     height: 3rem;
     width: 100%;
   }
+  .h {
+    color: #541212;
+    font-size: 25px;
+}
 
   .menubar ul li {
     display: flex;
@@ -788,7 +802,10 @@ img.flexcardimgItem {
     width: 35%;
     margin-top: 20px;
   }
-
+  .abt {
+    color: #000000;
+    font-size: 35px;
+  }
   img.flexcardimgItem {
     width: 30%;
   }
@@ -798,9 +815,21 @@ img.flexcardimgItem {
   .flexcard {
     width: 70%;
   }
+  .abt {
+    color: #000000;
+    font-size: 35px;
+  }
 }
 
 @media (min-width: 325px) and (max-width: 479.98px) { 
+  .h {
+    color: #541212;
+    font-size: 25px;
+}
+.abt {
+  color: #000000;
+  font-size: 35px;
+}
   .flexbox {
     width: 100%;
   }
@@ -873,12 +902,18 @@ img.flexcardimgItem {
   
  }
  @media (min-width: 180px) and (max-width: 324.98px) { 
-
+  .abt {
+    color: #000000;
+    font-size: 35px;
+  }
   #logo {
     height: 3rem;
     width: 100%;
   }
-
+  .h {
+    color: #541212;
+    font-size: 25px;
+}
   .menubar ul li {
     display: block;
   }
@@ -934,7 +969,9 @@ img.flexcardimgItem {
     flex-direction: column;
     margin: auto;
   }
-
+  .about-section{
+    padding: 18px;
+  }
   .hoverme:hover .submenu2 {
     display: none;
   }
