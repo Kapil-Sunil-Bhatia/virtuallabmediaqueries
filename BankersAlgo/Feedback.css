@@ -337,9 +337,26 @@ footer
   }
   
 }
+@media only screen and (max-width: 1024px) {
+  #logo {
+    height: 50px;
+    width: 300px;
+  }
 
+  #trust {
+    height: 30px;
+    width: 50px;
+  }
+
+  .sidebar{
+    height: 3000px;
+  }
+  .theory1 {
+  margin: 30px;
+}
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 500px) {
   #logo {
     height: 50px;
     width: 250px;
@@ -349,15 +366,30 @@ footer
     height: 30px;
     width: 40px;
   }
-  .form{
+  iframe{
     height: 440px;
-    width: 440px;
+    width: 100%;
   }
-
 
   .sidebar{
-    height: 1500px;
+    height: 1000px;
   }
+  /* .footer-content{
+    z-index: 1000;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 148vw;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  } */
+  .footer-content h6{
+    font-size: 10px;
+    text-align: start;
+    line-height: 1.2;
+  } 
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
