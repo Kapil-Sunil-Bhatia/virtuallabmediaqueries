@@ -314,7 +314,59 @@ footer
   color: #541212;
 }
 /* media queries */
-/* Extra small devices (phones, 600px and down) */
+   
+@media only screen and (max-width: 1024px) {
+  #logo {
+    height: 50px;
+    width: 300px;
+  }
+
+  #trust {
+    height: 30px;
+    width: 50px;
+  }
+
+  .sidebar{
+    height: 3000px;
+  }
+  .theory1 {
+  margin: 30px;
+}
+}
+@media (max-width:381px) and (min-width:300px){
+  
+  .sidebar{
+    height: 100px;
+  }
+  .footer-content{
+    z-index: 1000;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  }
+  .footer-content h6{
+    font-size: 13px;
+  }
+
+}
+@media (max-width:450px) and (min-width:381px){
+  .footer-content{
+    z-index: 1000;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 148vw;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 600px) {
   #logo {
     height: 50px;
@@ -327,13 +379,22 @@ footer
     height: 30px;
     width: 50px;
   }
-
-  .sidebar{
-    height: 3000px;
+  .video table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+  
   }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+  .sidebar{
+    height: 1000px;
+  }
+
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #logo {
     height: 50px;
@@ -344,13 +405,17 @@ footer
     height: 30px;
     width: 40px;
   }
+  .responsive {
+    width: 60%;
+    height: auto;
+  }
 
 
   .sidebar{
-    height: 900px;
+    height: 800px;
   }
 }
-/* Medium devices (landscape tablets, 768px and up) */
+
 @media only screen and (min-width: 768px) {
   #logo {
     height: 72px;
@@ -361,18 +426,9 @@ footer
     height: 40px;
     width: 70px;
   }
-
+ 
 
   .sidebar{
     height: 900px;
   }
 }
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
-
