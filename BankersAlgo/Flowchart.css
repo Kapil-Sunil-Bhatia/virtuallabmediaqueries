@@ -283,6 +283,16 @@ button {
   font-weight: 500;
   margin: 18px
 }
+footer
+{
+  background:#9B2928;
+  height: auto;
+  width: 100vw;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 20px;
+  color: white;
+  padding-bottom: 13px;
+}
 
 @media (max-width: 420px) {
   .sidebar li .tooltip {
@@ -340,9 +350,184 @@ footer
   line-height: 10px;
  
 }
+
+/* media queries */
+/* @media only screen and (max-width:405px){
+  .sidebar{
+    height: 600px;
+  }
+} */
+@media (max-width:300px) and (min-width:250px) {
+  #logo {
+    height: 50px;
+    width: 300px;
+  }
+   .icons{
+    display: none;
+  }
+  #trust {
+    height: 30px;
+    width: 50px;
+  }
+
+  .sidebar{
+    height: 2500px;
+  }
+  .h5{
+    font-size: 10px;
+  }
+  .footer-content{
+    z-index: 1000;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  }
+}
+
+ @media (max-width:350px) and (min-width:300px) {
+  .sidebar{
+    height: 2200px;
+  }
+  .footer-content{
+    z-index: 1000;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  }
+  #logo{
+    width: 350px;
+  }
+  .icons{
+    display: none;
+  }
+  .home-section .text {
+    color: #9b2928;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 71px;
+}
+} 
+/* Extra small devices (phones, 600px and down) */
+@media (max-width:400px) and (min-width:350px) {
+
+#logo {
+    height: 50px;
+    width: 300px;
+  }
+   .icons{
+    display: none;
+  }
+  #trust {
+    height: 30px;
+    width: 50px;
+  }
+
+  .sidebar{
+    height: 2000px;
+  }
+  .footer-content{
+    z-index: 1000;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  }
+  /* .footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  } */
+}
+@media only screen and (max-width: 736px) {
+  .footer-content{
+    z-index: 1000;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  }
+}
+/* Small devices (portrait tablets and large phones, 400px and up) */
+@media only screen and (min-width: 400px) {
+  #logo {
+    height: 50px;
+    width: 250px;
+  }
+
+  #trust {
+    height: 30px;
+    width: 40px;
+  }
+
+  .sidebar{
+    height: 2000px;
+  }
+  /* .footer-content{
+    z-index: 1000;
+    position: fixed;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  } */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #logo {
+    height: 72px;
+    width: 380px;
+  }
+ 
+  #trust {
+    height: 40px;
+    width: 70px;
+  }
+
+  /* .footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9b2928;
+    color: white;
+    text-align: center;
+  } */
+  .sidebar{
+    height: 2100px;
+  }
+}
+
+
+
+
 /* media queries */
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   #logo {
     height: 50px;
     width: 300px;
@@ -358,10 +543,10 @@ footer
   .sidebar{
     height: 3000px;
   }
-}
+} */
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   #logo {
     height: 50px;
     width: 250px;
@@ -376,9 +561,9 @@ footer
   .sidebar{
     height: 2500px;
   }
-}
+} */
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   #logo {
     height: 72px;
     width: 380px;
@@ -393,13 +578,5 @@ footer
   .sidebar{
     height: 1900px;
   }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}
+} */
 
