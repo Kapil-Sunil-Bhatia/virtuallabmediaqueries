@@ -330,7 +330,23 @@ footer
     height: 3000px;
   }
 }
+@media (max-width:335px) and (min-width:250px) {
+.sidebar{
+  height: 3300px;
+}
+}
 
+@media (max-width:500px) and (min-width:335px) {
+.sidebar{
+  height: 2900px;
+}
+
+}
+@media (max-width:600px) and (min-width:500px) {
+  .sidebar{
+    height: 2200px;
+  }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #logo {
