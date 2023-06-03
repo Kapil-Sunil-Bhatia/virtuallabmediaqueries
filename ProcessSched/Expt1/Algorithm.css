@@ -329,8 +329,18 @@ footer
   }
 
   .sidebar{
+    display: flex;
     height: 3000px;
   }
+
+  .sidebar {
+    display: flex;
+    height: 3000px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -348,6 +358,8 @@ footer
 
   .sidebar{
     height: 1000px;
+
+ 
   }
 }
 /* Medium devices (landscape tablets, 768px and up) */
@@ -375,3 +387,5 @@ footer
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 }
+
+
