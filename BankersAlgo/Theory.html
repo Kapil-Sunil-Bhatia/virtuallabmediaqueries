@@ -64,26 +64,13 @@
   </div>
   <br>
 
-  <!-- <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" id="dropbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class='bx bx-menu' id="btn"></i>
-    </button>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="../BankersAlgoMain/BankersAlgoMain.html"> <i class="bi bi-bookmarks"></i> &nbsp; Banker's Algorithm</a></li>
-      <li><a class="dropdown-item" href="Theory.html"> <i class='bx bx-book-open'></i>&nbsp; Theory</a></li>
-      <li><a class="dropdown-item" href="Algorithm.html"> <i class='bx bx-receipt'></i>&nbsp; Algorithm</a></li>
-      <li><a class="dropdown-item" href="Flowchart.html"><i class='bx bx-bar-chart-alt-2'></i>&nbsp; Flowchart</a></li>
-      <li><a class="dropdown-item" href="CodeImp.html"><i class="bi bi-code-slash"></i>&nbsp; Code Implementation</a></li>
-      <li><a class="dropdown-item" href="Simulator.html"> <i class='bx bx-play-circle'></i>&nbsp; Simulator</a></li>
-      <li><a class="dropdown-item" href="Numericals.html"><i class="bi bi-clipboard2-pulse"></i>&nbsp; Numericals</a></li>
-      <li><a class="dropdown-item" href="../DOM/Bankers/QuizBanker.html"><i class='bx bx-message-rounded'></i>&nbsp; Quiz</a></li>
-      <li><a class="dropdown-item" href="References.html"><i class='bx bx-edit-alt'></i>&nbsp; References</a></li>
-      <li><a class="dropdown-item" href="Feedback.html"><i class="bi bi-hand-thumbs-up"></i>&nbsp; Feedback</a></li>
-      <li><a class="dropdown-item" href="../index.html"><i class='bx bx-home'></i>&nbsp; Home</a></li>
-      <li><a class="dropdown-item" href="../../logout.php"><i class='bx bx-log-out'></i>&nbsp; Log Out</a></li>
-    </ul>
-  </div> -->
 
+  <!-- <a href="#" class="toggle-button">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </a>
+ -->
   <div class="sidebar">
 
     <div class="logo-details">
@@ -91,7 +78,7 @@
       <div class="logo_name">Banker's Algorithm</div>
       <i class='bx bx-menu' id="btn"></i>
     </div>
-    <ul class="nav-list">
+    <ul class="nav-list" id="links">
       <li>
         <a href="../BankersAlgoMain/BankersAlgoMain.html">
           <i class="bi bi-bookmarks"></i>
@@ -180,6 +167,25 @@
       </li>
 
 
+    </ul>
+  </div>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" id="dropbtn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class='bx bx-menu' id="btn"></i>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="../BankersAlgoMain/BankersAlgoMain.html"> <i class="bi bi-bookmarks"></i> &nbsp; Banker's Algorithm</a></li>
+      <li><a class="dropdown-item" href="Theory.html"> <i class='bx bx-book-open'></i>&nbsp; Theory</a></li>
+      <li><a class="dropdown-item" href="Algorithm.html"> <i class='bx bx-receipt'></i>&nbsp; Algorithm</a></li>
+      <li><a class="dropdown-item" href="Flowchart.html"><i class='bx bx-bar-chart-alt-2'></i>&nbsp; Flowchart</a></li>
+      <li><a class="dropdown-item" href="CodeImp.html"><i class="bi bi-code-slash"></i>&nbsp; Code Implementation</a></li>
+      <li><a class="dropdown-item" href="Simulator.html"> <i class='bx bx-play-circle'></i>&nbsp; Simulator</a></li>
+      <li><a class="dropdown-item" href="Numericals.html"><i class="bi bi-clipboard2-pulse"></i>&nbsp; Numericals</a></li>
+      <li><a class="dropdown-item" href="../DOM/Bankers/QuizBanker.html"><i class='bx bx-message-rounded'></i>&nbsp; Quiz</a></li>
+      <li><a class="dropdown-item" href="References.html"><i class='bx bx-edit-alt'></i>&nbsp; References</a></li>
+      <li><a class="dropdown-item" href="Feedback.html"><i class="bi bi-hand-thumbs-up"></i>&nbsp; Feedback</a></li>
+      <li><a class="dropdown-item" href="../index.html"><i class='bx bx-home'></i>&nbsp; Home</a></li>
+      <li><a class="dropdown-item" href="../../logout.php"><i class='bx bx-log-out'></i>&nbsp; Log Out</a></li>
     </ul>
   </div>
   <section class="home-section">
@@ -300,6 +306,7 @@ function backToTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
 </script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js'></script>
