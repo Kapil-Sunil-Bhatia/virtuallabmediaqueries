@@ -384,7 +384,7 @@ h4{
   footer{
   
       background-color: #9b2928;
-      width: 110vw;
+      width: 105vw;
       text-align: center;
       position: relative;
       padding: 10px;
@@ -711,7 +711,7 @@ h4{
   footer{
   
       background-color: #9b2928;
-      width: 110vw;
+      width: 105vw;
       text-align: center;
       position: relative;
       padding: 10px;
@@ -1039,7 +1039,7 @@ h4{
   footer{
   
       background-color: #9b2928;
-      width: 110vw;
+      width: 105vw;
       text-align: center;
       position: relative;
       padding: 10px;
@@ -1695,7 +1695,7 @@ h4{
 } 
 
 /* Small devices (portrait tablets and large phones, 400px and up) */
-@media (max-width:1230px) and (min-width:450px) {
+@media (max-width:768px) and (min-width:450px) {
   #logo {
     height: 50px;
     width: 250px;
@@ -1747,7 +1747,7 @@ h4{
   }
   .responsive{
     width: 100%;
-    height: 200px;
+    height: 150px;
   }
   .questions{
     padding: 25px;
@@ -1755,7 +1755,7 @@ h4{
   footer{
   
     background-color: #9b2928;
-    width: 100vw;
+    width: 105vw;
     text-align: center;
     position: relative;
     padding: 10px;
@@ -1786,21 +1786,127 @@ h4{
     height: 5000px;
     
   }
-
+  .questions{
+    padding: 10px;
+  }
   .problem{
     font-size: 17px;
   }
   .probopt{
     font-size: 18px;
   }
-  .responsive{
-    width: 100%;
-    height: 200px;
-  }
+
   #btn-back-to-top{
     z-index: 10000;
   }
 }
+
+@media (max-width:1230px) and (min-width:768px) {
+  #logo {
+    height: 50px;
+    width: 250px;
+  }
+
+  #trust {
+    height: 30px;
+    width: 40px;
+  }
+  /* td{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+  }
+  td img{
+    width: 100%;
+    height: 300px;
+  }
+  td video{
+    width: 100%;
+    height: 300px;
+  } */
+  td{
+    /* display: block;
+    width: 100%;
+    overflow-x: hidden; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: center;
+  }
+  .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: flex-end;
+}
+  td img{
+    width: 100%;
+    height: 300px;
+  }
+  td video{
+    width: 100%;
+    height: 300px;
+  }
+  .responsive{
+    width: 60%;
+    height: 200px;
+  }
+  .questions{
+    padding: 25px;
+  }
+  footer{
+  
+    background-color: #9b2928;
+    width: 105vw;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    color: #ffffff;
+
+}
+.footer-content{
+  z-index: 1;
+  position: relative;
+  padding: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #9b2928;
+  color: white;
+  text-align: center;
+}
+.footer-content h6{
+  font-size: 12px;
+}
+  .footer-content h6{
+    font-size: 13px;
+  }
+  .theory1{
+    font-size: 19px;
+  }
+  .sidebar{
+    height: 5000px;
+    
+  }
+  .questions{
+    padding: 10px;
+  }
+  .problem{
+    font-size: 17px;
+  }
+  .probopt{
+    font-size: 18px;
+  }
+
+  #btn-back-to-top{
+    z-index: 10000;
+  }
+}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 1230px) {
@@ -1889,7 +1995,7 @@ h4{
     z-index: 5000;
   }
 }
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   #logo {
     height: 72px;
     width: 380px;
@@ -1900,15 +2006,7 @@ h4{
     width: 70px;
   }
 
-  /* .footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #9b2928;
-    color: white;
-    text-align: center;
-  } */
+  
   .sidebar{
     height: 4500px;
   }
@@ -1921,4 +2019,4 @@ h4{
   }
 
 
-}
+} */
