@@ -429,7 +429,7 @@ h4{
     width: 100%;
   }
   .problem{
-    font-size: 14px;
+    font-size: 12px;
   }
   .probopt{
     font-size: 17px;
@@ -760,7 +760,7 @@ h4{
     width: 95%;
   }
   .problem{
-    font-size: 14px;
+    font-size: 12px;
   }
   .probopt{
     font-size: 14px;
@@ -784,7 +784,7 @@ h4{
     font-size: 19px;
   }
   h5 .theory{
-    font-size: 14px;
+    font-size: 16px;
   }
   .dropdown{
     display: block;
@@ -1090,7 +1090,7 @@ h4{
     width: 95%;
   }
   .problem{
-    font-size: 18px;
+    font-size: 16px;
   }
   .probopt{
     font-size: 18px;
@@ -1114,7 +1114,7 @@ h4{
     font-size: 19px;
   }
   h5 .theory{
-    font-size: 14px;
+    font-size: 16px;
   }
   .dropdown{
     display: block;
@@ -1455,7 +1455,7 @@ h4{
     font-size: 19px;
   }
   h5 .theory{
-    font-size: 14px;
+    font-size: 16px;
   }
   .dropdown{
     display: block;
