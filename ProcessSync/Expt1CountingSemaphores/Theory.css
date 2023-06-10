@@ -42,7 +42,7 @@ nav {
   margin-right: 20px;
 }
 
-button {
+.button {
   border: 0.3px solid #58595b;
   background-color: #ffffff;
 }
@@ -285,6 +285,7 @@ button {
   color: white;
   text-align: center;
 }
+
 @media screen and (min-width:200px) and (max-width: 323px) {
   .sidebar li .tooltip{
     display: none;
