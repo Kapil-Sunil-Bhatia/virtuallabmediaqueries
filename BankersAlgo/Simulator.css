@@ -384,7 +384,7 @@ h4{
   footer{
   
       background-color: #9b2928;
-      width: 260%;
+      width: 215vw;
       text-align: center;
       position: relative;
       padding: 10px;
@@ -702,7 +702,7 @@ h4{
   footer{
   
       background-color: #9b2928;
-      width: 215%;
+      width: 215vw;
       text-align: center;
       position: relative;
       padding: 10px;
@@ -1020,7 +1020,7 @@ h4{
   footer{
   
       background-color: #9b2928;
-      width: 183%;
+      width: 182vw;
       text-align: center;
       position: relative;
       padding: 10px;
@@ -1338,7 +1338,7 @@ h4{
   footer{
   
       background-color: #9b2928;
-      width: 160%;
+      width: 160vw;
       text-align: center;
       position: relative;
       padding: 10px;
@@ -1939,7 +1939,6 @@ h4{
   .footer-content h6{
     font-size: 13px;
   }
-
   .sidebar{
     height: 6800px;
     
