@@ -175,9 +175,9 @@
     <div class="text">
       <h6 style="color:#9b2928">PROCESS SYNCHRONIZATION</h6>
       <br>
-      <h4 class="expt"><u> Experiment Number 2 : Binary Semaphores </u></h4>
+      <h4 class="expt" style="text-transform: uppercase;font-weight: bolder;letter-spacing: 2px;"><u>Experiment Number 2 : Binary Semaphores</u></h4>
       <br>
-      <h4 class="theory"><u>Theory :</u></h4>
+      <h4 class="theory" style="text-transform: uppercase;font-weight: bolder;letter-spacing: 1px; ;"><i class="bi bi-back"></i>Theory :</h4>
       <br>
       <div class="one">
 
@@ -186,42 +186,37 @@
             The value of the semaphore variable is initially set to 1, but if a process requests a resource, the wait() method is invoked, and the value of this semaphore is changed from 1 to 0.
             When the process has finished using the resource, the signal() method is invoked, and the value of this semaphore variable is raised to 1. 
             If the value of this semaphore variable is 0 at a given point in time, and another process wants to access the same resource, it must wait for the prior process to release the resource. 
-            Process synchronization can be performed in this manner.
+            Process synchronization can be performed in this manner.</h5>
             <br><br>
-          <u class="theory"> <i class="bi bi-back"></i> Where are Binary Semaphores Used? </u>
+            <h4 class="theory" style="text-transform: uppercase;font-weight: bolder;letter-spacing: 1px; ;"><i class="bi bi-back"></i> Where are Binary Semaphores Used? </h4>
+          <br>
+
+          <h5><i class="bi bi-caret-right-fill"></i> The mutual exclusion was not used in counting semaphore because we had a group of processes that needed to run in the crucial region at the same time.</h5>  
+          <br>
+          <h5><i class="bi bi-caret-right-fill"></i> Binary Semaphore, on the other hand, rigorously enforces mutual exclusion. Instead of having many slots in the crucial part, we can only have one process in the critical portion here. There are just two possible values for the semaphore: 0 or 1.</h5>
           <br>
           <br>
-          <i class="bi bi-caret-right-fill"></i> The mutual exclusion was not used in counting semaphore because we had a group of processes that needed to run in the crucial region at the same time.  
-          <br>
-          <i class="bi bi-caret-right-fill"></i> Binary Semaphore, on the other hand, rigorously enforces mutual exclusion.
-        <br>
-          Instead of having many slots in the crucial part, we can only have one process in the critical portion here. 
-          <br>
-          There are just two possible values for the semaphore: 0 or 1.
+          <h4 class="theory" style="text-transform: uppercase;font-weight: bolder;letter-spacing: 1px; ;"><i class="bi bi-back"></i> Features of Binary Semaphore :</h4>
           <br>
           <br>
-          <u class="theory"><i class="bi bi-back"></i> Features of Binary Semaphore :</u>
+          <h5><i class="bi bi-caret-right-fill"></i> A Binary Semaphore is one with an integer value between 0 and 1.</h5>
           <br>
+          <h5><i class="bi bi-caret-right-fill"></i> It’s nothing more than a lock with two possible values: 0 and 1. 
+          0 denotes being busy, while 1 denotes being unoccupied.</h5>
           <br>
-          <i class="bi bi-caret-right-fill"></i> A Binary Semaphore is one with an integer value between 0 and 1.
+          <h5><i class="bi bi-caret-right-fill"></i> The rationale behind a binary semaphore is that it only enables one process to enter the crucial area at a time, thus allowing it to access the resource that is shared.</h5>
           <br>
-          <i class="bi bi-caret-right-fill"></i> It’s nothing more than a lock with two possible values: 0 and 1. 
+          <h5><i class="bi bi-caret-right-fill"></i> The value 0 indicates that a process or thread is in the critical section, i.e. it is accessing a shared resource, and that the other processes or threads should wait for it to finish. 
+    
+          The critical region, on the other hand, is free because no process is accessing the resource that is shared.</h5>
           <br>
-          0 denotes being busy, while 1 denotes being unoccupied.
+          <h5><i class="bi bi-caret-right-fill"></i> It ensures reciprocal exclusion by ensuring that no two processes are in the crucial section at the same time.</h5>
           <br>
-          <i class="bi bi-caret-right-fill"></i> The rationale behind a binary semaphore is that it only enables one process to enter the crucial area at a time, thus allowing it to access the resource that is shared.
-          <br>
-          <i class="bi bi-caret-right-fill"></i> The value 0 indicates that a process or thread is in the critical section, i.e. it is accessing a shared resource, and that the other processes or threads should wait for it to finish. 
-          <br>
-          The critical region, on the other hand, is free because no process is accessing the resource that is shared.
-          <br>
-          <i class="bi bi-caret-right-fill"></i> It ensures reciprocal exclusion by ensuring that no two processes are in the crucial section at the same time.
-          <br>
-          <i class="bi bi-caret-right-fill"></i> It cannot ensure bounded waiting because it is only a variable that retains an integer value. 
-          <br>
+          <h5><i class="bi bi-caret-right-fill"></i> It cannot ensure bounded waiting because it is only a variable that retains an integer value. 
+        
           It’s possible that a process will never get a chance to enter the critical section, causing it to starve. 
-          <br>
-          We don’t want it to happen.
+      
+          We don’t want it to happen.</h5>
           <br><br>
       </div>
     <br>
@@ -232,7 +227,7 @@
 </div>
 <br>
 
-<h5 class = "theory"><u> <i class="bi bi-back"></i> To know the difference between Counting Semaphore & Binary Semaphore :</u></h5>
+<h4 class="theory" style="text-transform: uppercase;font-weight: bolder;letter-spacing: 1px; ;"><i class="bi bi-back"></i> To know the difference between Counting Semaphore & Binary Semaphore :</h4>
 
       <!-- <div class="container" style="background-color: #ffffff;">
         <button type="clickhere" class="button" onclick="openPopup()"><h5>Click Here</h5></button>
