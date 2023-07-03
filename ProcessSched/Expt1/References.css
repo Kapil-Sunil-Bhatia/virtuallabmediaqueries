@@ -689,6 +689,9 @@ h4{
   .theory1{
     font-size: 20px;
   }
+   .h4, h4 {
+    font-size: 2rem;
+}
   .icons{
     display: none;
   }
@@ -967,6 +970,9 @@ h4{
     color: var(--bs-link-color);
     text-decoration: underline;
     font-size: 1rem;
+}
+  .h4, h4 {
+    font-size: 2rem;
 }
   footer{
   
