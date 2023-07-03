@@ -687,7 +687,7 @@ h4{
     font-size: 12px;
   }
   .theory1{
-    font-size: 13px;
+    font-size: 20px;
   }
   .icons{
     display: none;
@@ -993,9 +993,9 @@ h4{
   .footer-content h6{
     font-size: 12px;
   }
-  .theory1{
-    font-size: 16px;
-  }
+  .theory1 {
+    font-size: 20px;
+}
   .icons{
     display: none;
   }
